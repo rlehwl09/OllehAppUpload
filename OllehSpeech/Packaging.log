@@ -1,174 +1,175 @@
-2018-09-18 06:28:25 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fd63f4ea080; archive(resolved)='<IDEArchive: 0x7fd63c89fc80>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fd657812b60; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
+2018-09-18 07:19:27 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fd63c440200; archive(resolved)='<IDEArchive: 0x7fd63c770710>', distributionTask(resolved)='2', distributionMethod(resolved)='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team(resolved)='<IDEProvisioningBasicTeam: 0x7fd6496498c0; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
 	Chain (11, self inclusive):
-	<IDEDistributionProcessingPipelineContext: 0x7fd63f4ea080; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd657812b60; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
-	<IDEDistributionProcessingPipelineContext: 0x7fd63f413c90; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd657812b60; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
-	<IDEDistributionContext: 0x7fd63e63fb50; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd657812b60; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
-	<IDEDistributionContext: 0x7fd63f290250; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd657812b60; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
-	<IDEDistributionContext: 0x7fd63cc0b730; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd657812b60; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
-	<IDEDistributionContext: 0x7fd63c6b0970; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd657812b60; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
-	<IDEDistributionContext: 0x7fd63f4a8db0; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd657812b60; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
-	<IDEDistributionContext: 0x7fd63e6bc500; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd657812b60; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
-	<IDEDistributionContext: 0x7fd63c8d40a0; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd657812b60; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
-	<IDEDistributionContext: 0x7fd63f2787d0; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='(null)'>
-	<IDEDistributionContext: 0x7fd63f498b00; archive = '<IDEArchive: 0x7fd63c89fc80>', distributionMethod='(null)', team='(null)'>
-</IDEDistributionProcessingPipelineContext: 0x7fd63f4ea080>
-2018-09-18 06:28:25 +0000  Processing step: IDEDistributionCreateDestRootStep
-2018-09-18 06:28:25 +0000  Processing step: IDEDistributionCopyItemStep
-2018-09-18 06:28:25 +0000  Running /usr/bin/ditto '-V' '/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 2.34.xcarchive/Products/Applications/OllehSpeech.app' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app'
-2018-09-18 06:28:25 +0000  >>> Copying /Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 2.34.xcarchive/Products/Applications/OllehSpeech.app 
-2018-09-18 06:28:25 +0000  copying file ./_CodeSignature/CodeResources ... 
-2018-09-18 06:28:25 +0000  6415 bytes for ./_CodeSignature/CodeResources
-2018-09-18 06:28:25 +0000  copying file ./OllehSpeech ... 
-2018-09-18 06:28:25 +0000  272928 bytes for ./OllehSpeech
-2018-09-18 06:28:25 +0000  copying file ./AppIcon60x60@2x.png ... 
-2018-09-18 06:28:25 +0000  2936 bytes for ./AppIcon60x60@2x.png
-2018-09-18 06:28:25 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-MFy-S9-6bM.nib ... 
-2018-09-18 06:28:25 +0000  969 bytes for ./Base.lproj/Main.storyboardc/UIViewController-MFy-S9-6bM.nib
-2018-09-18 06:28:25 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
-2018-09-18 06:28:25 +0000  1234 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
-2018-09-18 06:28:25 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-1wO-dL-OVo.nib ... 
-2018-09-18 06:28:25 +0000  6266 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-1wO-dL-OVo.nib
+	<IDEDistributionProcessingPipelineContext: 0x7fd63c440200; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd6496498c0; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fd63f3e84c0; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd6496498c0; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
+	<IDEDistributionContext: 0x7fd63c2ba680; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd6496498c0; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
+	<IDEDistributionContext: 0x7fd63f64b8b0; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd6496498c0; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
+	<IDEDistributionContext: 0x7fd63f57e670; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd6496498c0; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
+	<IDEDistributionContext: 0x7fd63c759f50; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd6496498c0; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
+	<IDEDistributionContext: 0x7fd657e58e60; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd6496498c0; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
+	<IDEDistributionContext: 0x7fd639543330; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd6496498c0; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
+	<IDEDistributionContext: 0x7fd641259010; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='<IDEProvisioningBasicTeam: 0x7fd6496498c0; teamID='59D2UQQRLY', teamName='DONG JIN KIM'>'>
+	<IDEDistributionContext: 0x7fd641262bf0; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='<IDEDistributionMethodAdHoc: 0x7fd656e6a7d0>', team='(null)'>
+	<IDEDistributionContext: 0x7fd64126b880; archive = '<IDEArchive: 0x7fd63c770710>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fd63c440200>
+2018-09-18 07:19:27 +0000  Processing step: IDEDistributionCreateDestRootStep
+2018-09-18 07:19:27 +0000  Processing step: IDEDistributionCopyItemStep
+2018-09-18 07:19:27 +0000  Running /usr/bin/ditto '-V' '/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 4.18.xcarchive/Products/Applications/OllehSpeech.app' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app'
+2018-09-18 07:19:27 +0000  >>> Copying /Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 4.18.xcarchive/Products/Applications/OllehSpeech.app 
+2018-09-18 07:19:27 +0000  copying file ./_CodeSignature/CodeResources ... 
+2018-09-18 07:19:27 +0000  6415 bytes for ./_CodeSignature/CodeResources
+2018-09-18 07:19:27 +0000  copying file ./OllehSpeech ... 
+2018-09-18 07:19:27 +0000  272928 bytes for ./OllehSpeech
+2018-09-18 07:19:27 +0000  copying file ./AppIcon60x60@2x.png ... 
+2018-09-18 07:19:27 +0000  2936 bytes for ./AppIcon60x60@2x.png
+2018-09-18 07:19:27 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-MFy-S9-6bM.nib ... 
+2018-09-18 07:19:27 +0000  969 bytes for ./Base.lproj/Main.storyboardc/UIViewController-MFy-S9-6bM.nib
+2018-09-18 07:19:27 +0000  copying file ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-09-18 07:19:27 +0000  1234 bytes for ./Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-09-18 07:19:27 +0000  copying file ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-1wO-dL-OVo.nib ... 
+2018-09-18 07:19:27 +0000  6267 bytes for ./Base.lproj/Main.storyboardc/BYZ-38-t0r-view-1wO-dL-OVo.nib
 copying file ./Base.lproj/Main.storyboardc/MFy-S9-6bM-view-65D-gf-ZVn.nib ... 
-2018-09-18 06:28:25 +0000  7950 bytes for ./Base.lproj/Main.storyboardc/MFy-S9-6bM-view-65D-gf-ZVn.nib
-copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
-2018-09-18 06:28:25 +0000  333 bytes for ./Base.lproj/Main.storyboardc/Info.plist
-2018-09-18 06:28:25 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
-2018-09-18 06:28:25 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-09-18 07:19:27 +0000  7960 bytes for ./Base.lproj/Main.storyboardc/MFy-S9-6bM-view-65D-gf-ZVn.nib
+2018-09-18 07:19:27 +0000  copying file ./Base.lproj/Main.storyboardc/Info.plist ... 
+2018-09-18 07:19:27 +0000  333 bytes for ./Base.lproj/Main.storyboardc/Info.plist
+2018-09-18 07:19:27 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+2018-09-18 07:19:27 +0000  1136 bytes for ./Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
 copying file ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
-2018-09-18 06:28:25 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
-2018-09-18 06:28:25 +0000  copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
-2018-09-18 06:28:25 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
-2018-09-18 06:28:25 +0000  copying file ./Assets.car ... 
-2018-09-18 06:28:25 +0000  164904 bytes for ./Assets.car
-2018-09-18 06:28:25 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
-2018-09-18 06:28:25 +0000  3646 bytes for ./AppIcon76x76@2x~ipad.png
-2018-09-18 06:28:25 +0000  copying file ./Frameworks/KTVoiceKit.framework/_CodeSignature/CodeResources ... 
-2018-09-18 06:28:25 +0000  2202 bytes for ./Frameworks/KTVoiceKit.framework/_CodeSignature/CodeResources
-2018-09-18 06:28:25 +0000  copying file ./Frameworks/KTVoiceKit.framework/Info.plist ... 
-2018-09-18 06:28:25 +0000  758 bytes for ./Frameworks/KTVoiceKit.framework/Info.plist
-2018-09-18 06:28:25 +0000  copying file ./Frameworks/KTVoiceKit.framework/KTVoiceKit ... 
-2018-09-18 06:28:25 +0000  1555440 bytes for ./Frameworks/KTVoiceKit.framework/KTVoiceKit
-2018-09-18 06:28:25 +0000  
-2018-09-18 06:28:25 +0000  /usr/bin/ditto exited with 02018-09-18 06:28:25 +0000  copying file ./embedded.mobileprovision ... 
+2018-09-18 07:19:27 +0000  832 bytes for ./Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+copying file ./Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
+2018-09-18 07:19:27 +0000  258 bytes for ./Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-09-18 07:19:27 +0000  copying file ./Assets.car ... 
+2018-09-18 07:19:27 +0000  164904 bytes for ./Assets.car
+2018-09-18 07:19:27 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2018-09-18 07:19:27 +0000  3646 bytes for ./AppIcon76x76@2x~ipad.png
+2018-09-18 07:19:27 +0000  copying file ./Frameworks/KTVoiceKit.framework/_CodeSignature/CodeResources ... 
+2018-09-18 07:19:27 +0000  2202 bytes for ./Frameworks/KTVoiceKit.framework/_CodeSignature/CodeResources
+2018-09-18 07:19:27 +0000  copying file ./Frameworks/KTVoiceKit.framework/Info.plist ... 
+2018-09-18 07:19:27 +0000  758 bytes for ./Frameworks/KTVoiceKit.framework/Info.plist
+2018-09-18 07:19:27 +0000  copying file ./Frameworks/KTVoiceKit.framework/KTVoiceKit ... 
+2018-09-18 07:19:27 +0000  1555440 bytes for ./Frameworks/KTVoiceKit.framework/KTVoiceKit
+2018-09-18 07:19:27 +0000  2018-09-18 07:19:27 +0000  /usr/bin/ditto exited with 0
+
+2018-09-18 07:19:27 +0000  copying file ./embedded.mobileprovision ... 
 7607 bytes for ./embedded.mobileprovision
 copying file ./Info.plist ... 
 1348 bytes for ./Info.plist
 copying file ./PkgInfo ... 
 8 bytes for ./PkgInfo
-
-2018-09-18 06:28:25 +0000  
-2018-09-18 06:28:25 +0000  Processing step: IDEDistributionEmbedProfileStep
-2018-09-18 06:28:25 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd63f2b8eb0 'com.kt.voicekit.KTVoiceKit' '<DVTFilePath:0x7fd63e659420:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 2.34.xcarchive/Products/Applications/OllehSpeech.app/Frameworks/KTVoiceKit.framework'>'>
-2018-09-18 06:28:25 +0000  Processing step: IDEDistributionAppThinningPlistStep
-2018-09-18 06:28:25 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
-2018-09-18 06:28:25 +0000  Processing step: IDEDistributionCompileBitcodeStep
-2018-09-18 06:28:25 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root' '--json' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool-json-filepath-yk9VJJ' '--compile-bitcode' '--output' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.2IH' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
-2018-09-18 06:28:25 +0000  ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin17]
-2018-09-18 06:28:25 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
-2018-09-18 06:28:25 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
-2018-09-18 06:28:25 +0000  OS X 10.13.6 17G65
-2018-09-18 06:28:25 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/", "LOGNAME"=>"djkim", "XPC_FLAGS"=>"0x0", "HOME"=>"/Users/djkim", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.kFPBowIRZz/Render", "USER"=>"djkim", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.YrJ64oUTue/Listeners", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.35464", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x3:0x33", "CA_DEBUG_TRANSACTIONS"=>"1"}
-ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root", "--json", "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool-json-filepath-yk9VJJ", "--compile-bitcode", "--output", "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.2IH", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
-2018-09-18 06:28:25 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
-2018-09-18 06:28:25 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
-2018-09-18 06:28:25 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
-2018-09-18 06:28:25 +0000  Scanning IPA...
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/AppIcon60x60@2x.png
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9917 exit 0
+2018-09-18 07:19:27 +0000  
+2018-09-18 07:19:27 +0000  
+2018-09-18 07:19:27 +0000  Processing step: IDEDistributionEmbedProfileStep
+2018-09-18 07:19:27 +0000  Skipping profile for item: <IDEDistributionItem: 0x7fd63ca79230 'com.kt.voicekit.KTVoiceKit' '<DVTFilePath:0x7fd63f7ea330:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 4.18.xcarchive/Products/Applications/OllehSpeech.app/Frameworks/KTVoiceKit.framework'>'>
+2018-09-18 07:19:27 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2018-09-18 07:19:27 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2018-09-18 07:19:27 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2018-09-18 07:19:27 +0000  Running /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root' '--json' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool-json-filepath-YlYYZ6' '--compile-bitcode' '--output' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.jT2' '--toolchain' '/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr' '--platforms' '/Applications/Xcode.app/Contents/Developer/Platforms'
+2018-09-18 07:19:27 +0000  ruby 2.3.7p456 (2018-03-28 revision 63024) [universal.x86_64-darwin17]
+2018-09-18 07:19:27 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/type.rb:8: warning: method redefined; discarding old annotation
+2018-09-18 07:19:27 +0000  /System/Library/Frameworks/Ruby.framework/Versions/2.3/usr/lib/ruby/gems/2.3.0/gems/libxml-ruby-2.9.0/lib/libxml/schema/element.rb:18: warning: method redefined; discarding old annotation
+2018-09-18 07:19:27 +0000  OS X 10.13.6 17G65
+2018-09-18 07:19:27 +0000  ENV: {"PATH"=>"/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/libexec:/Applications/Xcode.app/Contents/Developer/usr/bin:/Applications/Xcode.app/Contents/Developer/usr/local/bin:/Applications/Xcode.app/Contents/Developer/Tools:/usr/bin:/bin:/usr/sbin:/sbin", "MallocNanoZone"=>"0", "TMPDIR"=>"/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/", "LOGNAME"=>"djkim", "XPC_FLAGS"=>"0x0", "HOME"=>"/Users/djkim", "Apple_PubSub_Socket_Render"=>"/private/tmp/com.apple.launchd.kFPBowIRZz/Render", "USER"=>"djkim", "SSH_AUTH_SOCK"=>"/private/tmp/com.apple.launchd.YrJ64oUTue/Listeners", "XPC_SERVICE_NAME"=>"com.apple.dt.Xcode.35464", "SHELL"=>"/bin/bash", "__CF_USER_TEXT_ENCODING"=>"0x1F5:0x3:0x33", "CA_DEBUG_TRANSACTIONS"=>"1"}
+ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root", "--json", "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool-json-filepath-YlYYZ6", "--compile-bitcode", "--output", "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.jT2", "--toolchain", "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr", "--platforms", "/Applications/Xcode.app/Contents/Developer/Platforms"]
+2018-09-18 07:19:27 +0000  warning: Configuration issue: platform AppleTVSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-09-18 07:19:27 +0000  warning: Configuration issue: platform WatchSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-09-18 07:19:27 +0000  warning: Configuration issue: platform iPhoneSimulator.platform doesn't have any non-simulator SDKs; ignoring it
+2018-09-18 07:19:27 +0000  Scanning IPA...
+2018-09-18 07:19:27 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/AppIcon60x60@2x.png
+2018-09-18 07:19:27 +0000      /usr/bin/file exited with pid 11152 exit 0
     Stdout:
         PNG image data, 1342185478 x 750286694, 0-bit grayscale,
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/AppIcon76x76@2x\~ipad.png
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9918 exit 0
+2018-09-18 07:19:27 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/AppIcon76x76@2x\~ipad.png
+2018-09-18 07:19:27 +0000      /usr/bin/file exited with pid 11153 exit 0
     Stdout:
         PNG image data, 1342185478 x 750286694, 0-bit grayscale,
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Assets.car
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9919 exit 0
+2018-09-18 07:19:27 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Assets.car
+2018-09-18 07:19:27 +0000      /usr/bin/file exited with pid 11154 exit 0
     Stdout:
         Mac OS X bill of materials (BOM) file
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9921 exit 0
+2018-09-18 07:19:27 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-09-18 07:19:27 +0000      /usr/bin/file exited with pid 11156 exit 0
     Stdout:
         data
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9922 exit 0
+2018-09-18 07:19:27 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-09-18 07:19:27 +0000      /usr/bin/file exited with pid 11157 exit 0
     Stdout:
         Apple binary property list
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9923 exit 0
+2018-09-18 07:19:27 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-09-18 07:19:27 +0000      /usr/bin/file exited with pid 11158 exit 0
     Stdout:
         data
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-1wO-dL-OVo.nib
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9925 exit 0
+2018-09-18 07:19:27 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-1wO-dL-OVo.nib
+2018-09-18 07:19:27 +0000      /usr/bin/file exited with pid 11160 exit 0
     Stdout:
         data
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/Info.plist
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9926 exit 0
+2018-09-18 07:19:27 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/Info.plist
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11161 exit 0
     Stdout:
         Apple binary property list
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/MFy-S9-6bM-view-65D-gf-ZVn.nib
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9927 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/MFy-S9-6bM-view-65D-gf-ZVn.nib
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11162 exit 0
     Stdout:
         data
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9928 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11163 exit 0
     Stdout:
         data
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-MFy-S9-6bM.nib
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9929 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-MFy-S9-6bM.nib
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11164 exit 0
     Stdout:
         data
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/Info.plist
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9931 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/Info.plist
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11166 exit 0
     Stdout:
         Apple binary property list
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9932 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11167 exit 0
     Stdout:
         Mach-O 64-bit dynamically linked shared library arm64
     
     Stderr:
-2018-09-18 06:28:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
-2018-09-18 06:28:25 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 9933 exit 0
+2018-09-18 07:19:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+2018-09-18 07:19:28 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 11168 exit 0
     Stdout:
-        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit is architecture: arm64
+        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit is architecture: arm64
     
     Stderr:
-2018-09-18 06:28:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
-2018-09-18 06:28:25 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 9934 exit 0
+2018-09-18 07:19:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+2018-09-18 07:19:28 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 11169 exit 0
     Stdout:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
         MH_MAGIC_64   ARM64        ALL  0x00       DYLIB    24       3440   NOUNDEFS DYLDLINK TWOLEVEL NO_REEXPORTED_DYLIBS
     
     Stderr:
-2018-09-18 06:28:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
-2018-09-18 06:28:25 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 9936 exit 0
+2018-09-18 07:19:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+2018-09-18 07:19:28 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 11171 exit 0
     Stdout:
-        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit:
+        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
         MH_MAGIC_64   ARM64        ALL  0x00       DYLIB    24       3440   NOUNDEFS DYLDLINK TWOLEVEL NO_REEXPORTED_DYLIBS
@@ -301,8 +302,8 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
         attributes (none)
          reserved1 0
          reserved2 0
-        Secti
-2018-09-18 06:28:25 +0000  on
+        Sect
+2018-09-18 07:19:28 +0000  ion
           sectname __ustring
            segname __TEXT
               addr 0x00000000000375bc
@@ -453,8 +454,8 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
              align 2^3 (8)
             reloff 0
             nreloc 0
-              ty
-2018-09-18 06:28:25 +0000  pe S_LITERAL_POINTERS
+              t
+2018-09-18 07:19:28 +0000  ype S_LITERAL_POINTERS
         attributes NO_DEAD_STRIP
          reserved1 0
          reserved2 0
@@ -552,7 +553,7 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
           sectname __bundle
            segname __LLVM
               addr 0x0000000000044000
-              size 0x0000000000119cee
+              size 0x0000000000119cef
             offset 278528
              align 2^0 (1)
             reloff 0
@@ -605,8 +606,7 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
                 cmdsize 80
               ilocalsym 0
               nlocalsym 1054
- 
-2018-09-18 06:28:25 +0000              iextdefsym 1054
+2018-09-18 07:19:28 +0000               iextdefsym 1054
              nextdefsym 234
               iundefsym 1288
               nundefsym 198
@@ -716,42 +716,42 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
          datasize 30400
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/_CodeSignature/CodeResources
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9938 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/_CodeSignature/CodeResources
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11173 exit 0
     Stdout:
         XML 1.0 document text, ASCII text
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Info.plist
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9941 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Info.plist
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11176 exit 0
     Stdout:
         Apple binary property list
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/OllehSpeech
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9942 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/OllehSpeech
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11177 exit 0
     Stdout:
         Mach-O 64-bit executable arm64
     
     Stderr:
-2018-09-18 06:28:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/OllehSpeech
-2018-09-18 06:28:25 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 9943 exit 0
+2018-09-18 07:19:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/OllehSpeech
+2018-09-18 07:19:28 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 11178 exit 0
     Stdout:
-        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/OllehSpeech is architecture: arm64
+        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/OllehSpeech is architecture: arm64
     
     Stderr:
-2018-09-18 06:28:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/OllehSpeech
-2018-09-18 06:28:25 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 9944 exit 0
+2018-09-18 07:19:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/OllehSpeech
+2018-09-18 07:19:28 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 11179 exit 0
     Stdout:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
         MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    26       3432   NOUNDEFS DYLDLINK TWOLEVEL PIE
     
     Stderr:
-2018-09-18 06:28:25 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/OllehSpeech
-2018-09-18 06:28:25 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 9946 exit 0
+2018-09-18 07:19:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/OllehSpeech
+2018-09-18 07:19:28 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 11181 exit 0
     Stdout:
-        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/OllehSpeech:
+        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/OllehSpeech:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
         MH_MAGIC_64   ARM64        ALL  0x00     EXECUTE    26       3432   NOUNDEFS DYLDLINK TWOLEVEL PIE
@@ -887,8 +887,8 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
           sectname __objc_methtype
            segname __TEXT
               addr 0x000000010000b118
-        
-2018-09-18 06:28:25 +0000        size 0x0000000000000b3f
+       
+2018-09-18 07:19:28 +0000         size 0x0000000000000b3f
             offset 45336
              align 2^0 (1)
             reloff 0
@@ -1040,8 +1040,8 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
          reserved1 0
          reserved2 0
         Section
-          
-2018-09-18 06:28:25 +0000  sectname __objc_selrefs
+         
+2018-09-18 07:19:28 +0000   sectname __objc_selrefs
            segname __DATA
               addr 0x000000010000de60
               size 0x0000000000000320
@@ -1194,8 +1194,8 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
           nindirectsyms 88
               extreloff 0
                 nextrel 0
-              locreloff 0
-2018-09-18 06:28:25 +0000  
+              locreloff 
+2018-09-18 07:19:28 +0000  0
                 nlocrel 0
         Load command 8
                   cmd LC_LOAD_DYLINKER
@@ -1303,56 +1303,56 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
          datasize 21008
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/PkgInfo
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9948 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/PkgInfo
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11183 exit 0
     Stdout:
         ASCII text, with no line terminators
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/_CodeSignature/CodeResources
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9949 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/_CodeSignature/CodeResources
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11184 exit 0
     Stdout:
         XML 1.0 document text, ASCII text
     
     Stderr:
-2018-09-18 06:28:25 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/embedded.mobileprovision
-2018-09-18 06:28:25 +0000      /usr/bin/file exited with pid 9950 exit 0
+2018-09-18 07:19:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/embedded.mobileprovision
+2018-09-18 07:19:28 +0000      /usr/bin/file exited with pid 11185 exit 0
     Stdout:
         data
     
     Stderr:
-2018-09-18 06:28:25 +0000  Complete LinkageGraph:
+2018-09-18 07:19:28 +0000  Complete LinkageGraph:
     OllehSpeech.app/OllehSpeech arm64 ->
         OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit arm64
     OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit arm64 ->
-2018-09-18 06:28:25 +0000  Validating IPA structure...
-2018-09-18 06:28:26 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk -o /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit --generate-dsym /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM --strip-swift-symbols /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
-2018-09-18 06:28:26 +0000  Compiling bitcode...
+2018-09-18 07:19:28 +0000  Validating IPA structure...
+2018-09-18 07:19:28 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk -o /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit --generate-dsym /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM --strip-swift-symbols /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+2018-09-18 07:19:28 +0000  Compiling bitcode...
   Compiling bitcode for arm64...
     Compiling arm64 bitcode in 'KTVoiceKit'
-2018-09-18 06:28:28 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 9976 exit 0
+2018-09-18 07:19:31 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 11211 exit 0
     Stdout:
         Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk
         Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
         MachoInfo: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" 
         -= Output =-
-        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit is architecture: arm64
+        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit is architecture: arm64
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
         GetUUID: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" 
         -= Output =-
-        UUID: 8374C66C-ED29-3AB3-BD17-E31905AF9F46 (arm64) /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+        UUID: 8374C66C-ED29-3AB3-BD17-E31905AF9F46 (arm64) /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
         ExtractXAR: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" "-extract" "__LLVM" "__bundle" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/KTVoiceKitwDRvfS/KTVoiceKit.arm64.xar" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" "-extract" "__LLVM" "__bundle" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/KTVoiceKit_xmqCE/KTVoiceKit.arm64.xar" 
         -= Output =-
         Exited with 0
         
@@ -1361,271 +1361,271 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
         Debug: Setting platform to: iPhoneOS
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "01" "-o" "01.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "02" "-o" "02.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "03" "-o" "03.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
-        "/Applications/Xcode.app/
-2018-09-18 06:28:28 +0000  Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "04" "-o" "04.o" 
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
+        "/Applications/Xcode.app
+2018-09-18 07:19:31 +0000  /Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "04" "-o" "04.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "05" "-o" "05.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "06" "-o" "06.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "07" "-o" "07.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "08" "-o" "08.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "09" "-o" "09.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "10" "-o" "10.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "11" "-o" "11.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "12" "-o" "12.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "13" "-o" "13.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
-        "/Applications/Xcode.app/Contents/Developer/Toolcha
-2018-09-18 06:28:28 +0000  ins/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "14" "-o" "14.o" 
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
+        "/Applications/Xcode.app/Contents/Developer/Toolch
+2018-09-18 07:19:31 +0000  ains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "14" "-o" "14.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "15" "-o" "15.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "16" "-o" "16.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "17" "-o" "17.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "18" "-o" "18.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "19" "-o" "19.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "20" "-o" "20.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "21" "-o" "21.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "22" "-o" "22.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "23" "-o" "23.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolcha
-2018-09-18 06:28:28 +0000  in/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "24" "-o" "24.o" 
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolch
+2018-09-18 07:19:31 +0000  ain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "24" "-o" "24.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "25" "-o" "25.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "26" "-o" "26.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "27" "-o" "27.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "28" "-o" "28.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "29" "-o" "29.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "30" "-o" "30.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "31" "-o" "31.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "32" "-o" "32.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "33" "-o" "33.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "
-2018-09-18 06:28:28 +0000  -triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "34" "-o" "34.o" 
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" 
+2018-09-18 07:19:31 +0000  "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "34" "-o" "34.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "35" "-o" "35.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "36" "-o" "36.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "37" "-o" "37.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "38" "-o" "38.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "39" "-o" "39.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "40" "-o" "40.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "41" "-o" "41.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "42" "-o" "42.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "43" "-o" "43.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios1
-2018-09-18 06:28:28 +0000  1.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "44" "-o" "44.o" 
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios
+2018-09-18 07:19:31 +0000  11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "44" "-o" "44.o" 
         -= Output =-
         Exited with 0
         
@@ -1638,68 +1638,68 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Security.framework/Security.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
-        Ld: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempmCtMaO
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-dylib" "-compatibility_version" "1.0.0" "-current_version" "1.0.0.0.0" "-install_name" "@rpath/KTVoiceKit.framework/KTVoiceKit" "-ios_version_min" "11.3.0" "-rpath" "@executable_path/Frameworks" "-rpath" "@loader_path/Frameworks" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk" "-sdk_version" "11.4.0" "-filelist" "/private/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/KTVoiceKitwDRvfS/KTVoiceKit.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Security.framework/Security.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/KTVoiceKitwDRvfS/KTVoiceKit.arm64.out" 
+        Ld: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempMstjdB
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-dylib" "-compatibility_version" "1.0.0" "-current_version" "1.0.0.0.0" "-install_name" "@rpath/KTVoiceKit.framework/KTVoiceKit" "-ios_version_min" "11.3.0" "-rpath" "@executable_path/Frameworks" "-rpath" "@loader_path/Frameworks" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk" "-sdk_version" "11.4.0" "-filelist" "/private/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/KTVoiceKit_xmqCE/KTVoiceKit.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CFNetwork.framework/CFNetwork.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Security.framework/Security.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/SystemConfiguration.framework/SystemConfiguration.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/KTVoiceKit_xmqCE/KTVoiceKit.arm64.out" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        warning: Cannot genarte useful dsym from input macho file: /va
-2018-09-18 06:28:28 +0000  r/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+        warning: Cannot genarte useful dsym from input macho file: /v
+2018-09-18 07:19:31 +0000  ar/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
         
         GetUUID: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" 
         -= Output =-
-        UUID: C7E1CAE3-70B1-3263-A3E0-A26DDE7C4D32 (arm64) /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+        UUID: C7E1CAE3-70B1-3263-A3E0-A26DDE7C4D32 (arm64) /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
         Dsymutil: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" "-o" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" "-o" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
         StripDebug: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "-STx" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "-STx" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
     
     Stderr:
-/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
-2018-09-18 06:28:28 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 10033 exit 0
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+2018-09-18 07:19:31 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 11268 exit 0
     Stdout:
-        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit [arm64, 0.000567 seconds]:
+        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit [arm64, 0.000617 seconds]:
     
     Stderr:
-2018-09-18 06:28:28 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit
-2018-09-18 06:28:28 +0000      /usr/bin/file exited with pid 10034 exit 0
+2018-09-18 07:19:31 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit
+2018-09-18 07:19:31 +0000      /usr/bin/file exited with pid 11269 exit 0
     Stdout:
         Mach-O 64-bit dSYM companion file arm64
     
     Stderr:
-2018-09-18 06:28:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit
-2018-09-18 06:28:28 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 10035 exit 0
+2018-09-18 07:19:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit
+2018-09-18 07:19:31 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 11270 exit 0
     Stdout:
-        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit is architecture: arm64
+        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit is architecture: arm64
     
     Stderr:
-2018-09-18 06:28:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit
-2018-09-18 06:28:28 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 10036 exit 0
+2018-09-18 07:19:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit
+2018-09-18 07:19:31 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 11271 exit 0
     Stdout:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
         MH_MAGIC_64   ARM64        ALL  0x00        DSYM     6       3296 0x00000000
     
     Stderr:
-2018-09-18 06:28:28 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit
-2018-09-18 06:28:28 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 10038 exit 0
+2018-09-18 07:19:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit
+2018-09-18 07:19:31 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 11273 exit 0
     Stdout:
-        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit:
+        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit.dSYM/Contents/Resources/DWARF/KTVoiceKit:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
         MH_MAGIC_64   ARM64        ALL  0x00        DSYM     6       3296 0x00000000
@@ -1834,7 +1834,7 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
           sectname __gcc_except_tab
            segname __TEXT
               addr 0x0000
-2018-09-18 06:28:28 +0000  0000000366d0
+2018-09-18 07:19:31 +0000  0000000366d0
               size 0x0000000000000eec
             offset 0
              align 2^2 (4)
@@ -1989,7 +1989,7 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
         Section
           sectname __objc_selrefs
            segname __
-2018-09-18 06:28:28 +0000  DATA
+2018-09-18 07:19:31 +0000  DATA
               addr 0x0000000000040350
               size 0x0000000000000b18
             offset 0
@@ -2146,7 +2146,7 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
            segname __DWARF
               addr 0x0000000000060493
    
-2018-09-18 06:28:28 +0000             size 0x0000000000004ae5
+2018-09-18 07:19:31 +0000             size 0x0000000000004ae5
             offset 119955
              align 2^0 (1)
             reloff 0
@@ -2248,31 +2248,31 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
          reserved2 0
     
     Stderr:
-2018-09-18 06:28:28 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin -L /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk -o /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech --generate-dsym /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM --strip-swift-symbols /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech
-2018-09-18 06:28:28 +0000      Compiling arm64 bitcode in 'OllehSpeech'
-2018-09-18 06:28:29 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 10040 exit 0
+2018-09-18 07:19:31 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool -v -t /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin -L /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework --sdk /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk -o /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech --generate-dsym /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM --strip-swift-symbols /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech
+2018-09-18 07:19:31 +0000      Compiling arm64 bitcode in 'OllehSpeech'
+2018-09-18 07:19:31 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/bitcode-build-tool exited with pid 11275 exit 0
     Stdout:
         Debug: SDK path: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk
         Debug: PATH: ['/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin', '/Applications/Xcode.app/Contents/Developer/usr/bin']
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo
         MachoInfo: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo" "-info" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" 
         -= Output =-
-        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech is architecture: arm64
+        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech is architecture: arm64
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump
         GetUUID: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" 
         -= Output =-
-        UUID: F2D7E75A-DCDC-3FC5-BE6D-58BC9207689C (arm64) /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech
+        UUID: F2D7E75A-DCDC-3FC5-BE6D-58BC9207689C (arm64) /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit
         ExtractXAR: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" "-extract" "__LLVM" "__bundle" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/OllehSpeech5OoCAw/OllehSpeech.arm64.xar" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/segedit" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" "-extract" "__LLVM" "__bundle" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/OllehSpeechgKiH00/OllehSpeech.arm64.xar" 
         -= Output =-
         Exited with 0
         
@@ -2281,44 +2281,44 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
         Debug: Setting platform to: iPhoneOS
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempaKEQ64
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/temprocE4x
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "1" "-o" "1.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempaKEQ64
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/temprocE4x
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "2" "-o" "2.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempaKEQ64
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/temprocE4x
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "3" "-o" "3.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempaKEQ64
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/temprocE4x
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi
-2018-09-18 06:28:29 +0000  " "darwinpcs" "-Os" "-x" "ir" "4" "-o" "4.o" 
+2018-09-18 07:19:31 +0000  " "darwinpcs" "-Os" "-x" "ir" "4" "-o" "4.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempaKEQ64
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/temprocE4x
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "5" "-o" "5.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempaKEQ64
+        Clang: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/temprocE4x
         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" "-cc1" "-triple" "arm64-apple-ios11.3.0" "-emit-obj" "-disable-llvm-passes" "-target-abi" "darwinpcs" "-Os" "-x" "ir" "6" "-o" "6.o" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        Debug: Found framework/dylib: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+        Debug: Found framework/dylib: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd
@@ -2327,68 +2327,69 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd
         Debug: Found framework/dylib: /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd
-        Ld: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/tempaKEQ64
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "11.3.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/djkim/Library/Developer/Xcode/DerivedData/KTVoiceKit-gqnuieqeozxavyfxqgkbuoqsxzcq/Build/Intermediates.noindex/ArchiveIntermediates/OllehSpeech/InstallationBuildProductsLocation/Applications/OllehSpeech.app/OllehSpeech" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk" "-sdk_version" "11.4.0" "-filelist" "/private/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/OllehSpeech5OoCAw/OllehSpeech.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd" "/App
-2018-09-18 06:28:29 +0000  lications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/OllehSpeech5OoCAw/OllehSpeech.arm64.out" 
+        Ld: cd /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/temprocE4x
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" "-arch" "arm64" "-execute" "-ios_version_min" "11.3.0" "-e" "_main" "-rpath" "@executable_path/Frameworks" "-executable_path" "/Users/djkim/Library/Developer/Xcode/DerivedData/KTVoiceKit-gqnuieqeozxavyfxqgkbuoqsxzcq/Build/Intermediates.noindex/ArchiveIntermediates/OllehSpeech/InstallationBuildProductsLocation/Applications/OllehSpeech.app/OllehSpeech" "-dead_strip" "-syslibroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk" "-sdk_version" "11.4.0" "-filelist" "/private/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/OllehSpeechgKiH00/OllehSpeech.arm64.out.LinkFileList" "-ignore_auto_link" "-allow_dead_duplicates" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/Foundation.framework/Foundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libSystem.B.tbd" "/App
+2018-09-18 07:19:31 +0000  lications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AVFoundation.framework/AVFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/CoreFoundation.framework/CoreFoundation.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/System/Library/Frameworks/UIKit.framework/UIKit.tbd" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.4.sdk/usr/lib/libobjc.A.tbd" "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.1.0/lib/darwin/libclang_rt.ios.a" "-o" "/private/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/OllehSpeechgKiH00/OllehSpeech.arm64.out" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
-        warning: Cannot genarte useful dsym from input macho file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech
+        warning: Cannot genarte useful dsym from input macho file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech
         
         GetUUID: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dwarfdump" "-u" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" 
         -= Output =-
-        UUID: 3E81A3CA-F503-35B7-B3F0-C45C28335869 (arm64) /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech
+        UUID: 3E81A3CA-F503-35B7-B3F0-C45C28335869 (arm64) /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil
         Dsymutil: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" "-o" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/dsymutil" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" "-o" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
         Debug: Using: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip
         StripSymbols: cd /
-        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" 
+        "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech" 
         -= Output =-
         Exited with 0
         
         Debug: Command took 0 seconds
     
     Stderr:
-/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech
-2018-09-18 06:28:29 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 10059 exit 0
+/Applications/Xcode.app/Contents/Developer/usr/bin/symbols -failIfMissingDsym -symbolsPackageDir /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech
+2018-09-18 07:19:31 +0000      /Applications/Xcode.app/Contents/Developer/usr/bin/symbols exited with pid 11294 exit 0
     Stdout:
-        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech [arm64, 0.000647 seconds]:
+        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech [arm64, 0.000622 seconds]:
     
     Stderr:
-2018-09-18 06:28:29 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech
-2018-09-18 06:28:29 +0000      /usr/bin/file exited with pid 10060 exit 0
+2018-09-18 07:19:31 +0000  /usr/bin/file -b -- /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech
+2018-09-18 07:19:31 +0000      /usr/bin/file exited with pid 11295 exit 0
     Stdout:
         Mach-O 64-bit dSYM companion file arm64
     
     Stderr:
-2018-09-18 06:28:29 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech
-2018-09-18 06:28:29 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 10061 exit 0
+2018-09-18 07:19:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo -info /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech
+2018-09-18 07:19:31 +0000  
+2018-09-18 07:19:31 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with pid 11296 exit 0
     Stdout:
-        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech is architecture: arm64
+        Non-fat file: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech is architecture: arm64
     
     Stderr:
-2018-09-18 06:28:29 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech
-2018-09-18 06:28:29 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 10062 exit 0
+2018-09-18 07:19:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -h -v -m -arch all /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech
+2018-09-18 07:19:31 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 11297 exit 0
     Stdout:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
         MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       3208 0x00000000
     
     Stderr:
-2018-09-18 06:28:29 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech
-2018-09-18 06:28:29 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 10064 exit 0
+2018-09-18 07:19:31 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool -l -v -m -arch arm64 /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech
+2018-09-18 07:19:31 +0000      /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/otool exited with pid 11299 exit 0
     Stdout:
-        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-9906-nybcfk/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech:
+        /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/ipatool20180918-11141-77s3y/thinned/arm64/Payload/OllehSpeech.app/OllehSpeech.dSYM/Contents/Resources/DWARF/OllehSpeech:
         Mach header
               magic cputype cpusubtype  caps    filetype ncmds sizeofcmds      flags
         MH_MAGIC_64   ARM64        ALL  0x00        DSYM     7       3208 0x00000000
@@ -2525,7 +2526,7 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
               size 0x00000000000000b8
             offset 0
              align 
-2018-09-18 06:28:29 +0000  2^0 (1)
+2018-09-18 07:19:31 +0000  2^0 (1)
             reloff 0
             nreloc 0
               type S_CSTRING_LITERALS
@@ -2679,7 +2680,7 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
            segname __DATA
               addr 0x000000010000c778
               size 0x000
-2018-09-18 06:28:29 +0000  00000000016e8
+2018-09-18 07:19:31 +0000  00000000016e8
             offset 0
              align 2^3 (8)
             reloff 0
@@ -2836,7 +2837,7 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
               size 0x00000000000006cf
             offset 13563
      
-2018-09-18 06:28:29 +0000          align 2^0 (1)
+2018-09-18 07:19:31 +0000          align 2^0 (1)
             reloff 0
             nreloc 0
               type S_REGULAR
@@ -2923,18 +2924,17 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
          reserved2 0
     
     Stderr:
-2018-09-18 06:28:29 +0000  Creating universal IPA contents for all devices
-  Creating directory /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.2IH/universal
+2018-09-18 07:19:31 +0000  Creating universal IPA contents for all devices
+  Creating directory /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.jT2/universal
   Copying OllehSpeech.app output payload directory
-2018-09-18 06:28:29 +0000  /Library/Ruby/Gems/2.3.0/gems/CFPropertyList-2.3.6/lib/cfpropertylist/rbCFPropertyList.rb:394: warning: File.exists? is a deprecated name, use File.exist? instead
-2018-09-18 06:28:29 +0000    Copying .dSYM files to /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.2IH/universal/dSYMs
-  Copying .symbols files to /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.2IH/universal/Symbols
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  ipatool JSON: {
+2018-09-18 07:19:31 +0000  /Library/Ruby/Gems/2.3.0/gems/CFPropertyList-2.3.6/lib/cfpropertylist/rbCFPropertyList.rb:394: warning: File.exists? is a deprecated name, use File.exist? instead
+2018-09-18 07:19:31 +0000    Copying .dSYM files to /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.jT2/universal/dSYMs
+  Copying .symbols files to /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.jT2/universal/Symbols
+2018-09-18 07:19:31 +0000  
+2018-09-18 07:19:31 +0000  2018-09-18 07:19:31 +0000  /Applications/Xcode.app/Contents/Developer/usr/bin/ipatool exited with 0
+
+2018-09-18 07:19:31 +0000  
+2018-09-18 07:19:31 +0000  2018-09-18 07:19:31 +0000  ipatool JSON: {
     alerts =     (
                 {
             code = 2887;
@@ -2959,39 +2959,40 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
         }
     );
     thinnableAssetCatalogs =     (
-        "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Assets.car"
+        "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Assets.car"
     );
     universalIPA =     {
-        path = "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.2IH/universal";
+        path = "/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/IDEIPAProcessor.AppThinning.jT2/universal";
     };
 }
-2018-09-18 06:28:29 +0000  Processing step: IDEDistributionCodeSlimmingStep
-2018-09-18 06:28:29 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
-2018-09-18 06:28:29 +0000  Processing step: IDEDistributionSymbolsStep
-2018-09-18 06:28:29 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2018-09-18 06:28:29 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2018-09-18 06:28:29 +0000  Processing step: IDEDistributionAppThinningStep
-2018-09-18 06:28:29 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
-2018-09-18 06:28:29 +0000  Processing step: IDEDistributionODRStep
-2018-09-18 06:28:29 +0000  Processing step: IDEDistributionStripXattrsStep
-2018-09-18 06:28:29 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd63f2b8eb0 'com.kt.voicekit.KTVoiceKit' '<DVTFilePath:0x7fd63e659420:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 2.34.xcarchive/Products/Applications/OllehSpeech.app/Frameworks/KTVoiceKit.framework'>'>
-2018-09-18 06:28:29 +0000  Running /usr/bin/xattr '-crs' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app'
-2018-09-18 06:28:29 +0000  2018-09-18 06:28:29 +0000  
 
-2018-09-18 06:28:29 +0000  /usr/bin/xattr exited with 0
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  Processing step: IDEDistributionCodesignStep
-2018-09-18 06:28:29 +0000  Entitlements for <IDEDistributionItem: 0x7fd63f2b8eb0 'com.kt.voicekit.KTVoiceKit' '<DVTFilePath:0x7fd63e659420:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 2.34.xcarchive/Products/Applications/OllehSpeech.app/Frameworks/KTVoiceKit.framework'>'>: {
+2018-09-18 07:19:31 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2018-09-18 07:19:31 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2018-09-18 07:19:31 +0000  Processing step: IDEDistributionSymbolsStep
+2018-09-18 07:19:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-09-18 07:19:31 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2018-09-18 07:19:31 +0000  Processing step: IDEDistributionAppThinningStep
+2018-09-18 07:19:31 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2018-09-18 07:19:31 +0000  Processing step: IDEDistributionODRStep
+2018-09-18 07:19:31 +0000  Processing step: IDEDistributionStripXattrsStep
+2018-09-18 07:19:31 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x7fd63ca79230 'com.kt.voicekit.KTVoiceKit' '<DVTFilePath:0x7fd63f7ea330:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 4.18.xcarchive/Products/Applications/OllehSpeech.app/Frameworks/KTVoiceKit.framework'>'>
+2018-09-18 07:19:31 +0000  Running /usr/bin/xattr '-crs' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app'
+2018-09-18 07:19:32 +0000  
+2018-09-18 07:19:32 +0000  2018-09-18 07:19:32 +0000  /usr/bin/xattr exited with 0
+
+2018-09-18 07:19:32 +0000  
+2018-09-18 07:19:32 +0000  Processing step: IDEDistributionCodesignStep
+2018-09-18 07:19:32 +0000  Entitlements for <IDEDistributionItem: 0x7fd63ca79230 'com.kt.voicekit.KTVoiceKit' '<DVTFilePath:0x7fd63f7ea330:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 4.18.xcarchive/Products/Applications/OllehSpeech.app/Frameworks/KTVoiceKit.framework'>'>: {
 }
-2018-09-18 06:28:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd63f2b8eb0 'com.kt.voicekit.KTVoiceKit' '<DVTFilePath:0x7fd63e659420:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 2.34.xcarchive/Products/Applications/OllehSpeech.app/Frameworks/KTVoiceKit.framework'>'> to: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/entitlementsF3mn9I
-2018-09-18 06:28:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '33863B80672C481F6FE3C27605DE27413CBB022B' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/entitlementsF3mn9I' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework'
-2018-09-18 06:28:29 +0000  /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework: signed bundle with Mach-O thin (arm64) [com.kt.voicekit.KTVoiceKit]
-2018-09-18 06:28:29 +0000  2018-09-18 06:28:29 +0000  
+2018-09-18 07:19:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd63ca79230 'com.kt.voicekit.KTVoiceKit' '<DVTFilePath:0x7fd63f7ea330:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 4.18.xcarchive/Products/Applications/OllehSpeech.app/Frameworks/KTVoiceKit.framework'>'> to: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/entitlementsjH3uEN
+2018-09-18 07:19:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '33863B80672C481F6FE3C27605DE27413CBB022B' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/entitlementsjH3uEN' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework'
+2018-09-18 07:19:32 +0000  /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework: signed bundle with Mach-O thin (arm64) [com.kt.voicekit.KTVoiceKit]
+2018-09-18 07:19:32 +0000  2018-09-18 07:19:32 +0000  
 
-2018-09-18 06:28:29 +0000  /usr/bin/codesign exited with 0
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  Entitlements for <IDEDistributionItem: 0x7fd6395fa350 'com.tns.OllehSpeech' '<DVTFilePath:0x7fd656e0e420:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 2.34.xcarchive/Products/Applications/OllehSpeech.app'>'>: {
+2018-09-18 07:19:32 +0000  /usr/bin/codesign exited with 0
+2018-09-18 07:19:32 +0000  2018-09-18 07:19:32 +0000  
+
+2018-09-18 07:19:32 +0000  Entitlements for <IDEDistributionItem: 0x7fd63e598450 'com.tns.OllehSpeech' '<DVTFilePath:0x7fd6581f7510:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 4.18.xcarchive/Products/Applications/OllehSpeech.app'>'>: {
     "application-identifier" = "59D2UQQRLY.com.tns.OllehSpeech";
     "com.apple.developer.team-identifier" = 59D2UQQRLY;
     "get-task-allow" = 0;
@@ -2999,60 +3000,60 @@ ARGV: ["/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/R
         "59D2UQQRLY.com.tns.OllehSpeech"
     );
 }
-2018-09-18 06:28:29 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd6395fa350 'com.tns.OllehSpeech' '<DVTFilePath:0x7fd656e0e420:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 2.34.xcarchive/Products/Applications/OllehSpeech.app'>'> to: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/entitlementsUFXkRI
-2018-09-18 06:28:29 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '33863B80672C481F6FE3C27605DE27413CBB022B' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/entitlementsUFXkRI' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app'
-2018-09-18 06:28:29 +0000  /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root/Payload/OllehSpeech.app: signed app bundle with Mach-O thin (arm64) [com.tns.OllehSpeech]
-2018-09-18 06:28:29 +0000  2018-09-18 06:28:29 +0000  
+2018-09-18 07:19:32 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd63e598450 'com.tns.OllehSpeech' '<DVTFilePath:0x7fd6581f7510:'/Users/djkim/Library/Developer/Xcode/Archives/2018-09-18/OllehSpeech 2018. 9. 18. 오후 4.18.xcarchive/Products/Applications/OllehSpeech.app'>'> to: /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/entitlementsi67tS3
+2018-09-18 07:19:32 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '33863B80672C481F6FE3C27605DE27413CBB022B' '--preserve-metadata=identifier,flags' '--entitlements' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/entitlementsi67tS3' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app'
+2018-09-18 07:19:32 +0000  /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root/Payload/OllehSpeech.app: signed app bundle with Mach-O thin (arm64) [com.tns.OllehSpeech]
+2018-09-18 07:19:32 +0000  2018-09-18 07:19:32 +0000  
 
-2018-09-18 06:28:29 +0000  /usr/bin/codesign exited with 0
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  Processing step: IDEDistributionStreamingZipItemStep
-2018-09-18 06:28:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
-2018-09-18 06:28:29 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
-2018-09-18 06:28:29 +0000  Processing step: IDEDistributionCreateIPAStep
-2018-09-18 06:28:29 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Packages/OllehSpeech.ipa'
-2018-09-18 06:28:29 +0000  >>> Copying /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.4b7/Root 
-2018-09-18 06:28:29 +0000  copying file ./Payload/OllehSpeech.app/_CodeSignature/CodeResources ... 
-2018-09-18 06:28:29 +0000  6415 bytes for ./Payload/OllehSpeech.app/_CodeSignature/CodeResources
-2018-09-18 06:28:29 +0000  copying file ./Payload/OllehSpeech.app/OllehSpeech ... 
-2018-09-18 06:28:29 +0000  91296 bytes for ./Payload/OllehSpeech.app/OllehSpeech
+2018-09-18 07:19:32 +0000  /usr/bin/codesign exited with 0
+2018-09-18 07:19:32 +0000  
+2018-09-18 07:19:32 +0000  Processing step: IDEDistributionStreamingZipItemStep
+2018-09-18 07:19:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-09-18 07:19:32 +0000  Skipping step: IDEDistributionStreamingZipItemStep because it said so
+2018-09-18 07:19:32 +0000  Processing step: IDEDistributionCreateIPAStep
+2018-09-18 07:19:32 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root' '/var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Packages/OllehSpeech.ipa'
+2018-09-18 07:19:32 +0000  >>> Copying /var/folders/x2/drqpfcgx65v3f2g1gsckdd2h0000gn/T/XcodeDistPipeline.MsM/Root 
+2018-09-18 07:19:32 +0000  copying file ./Payload/OllehSpeech.app/_CodeSignature/CodeResources ... 
+2018-09-18 07:19:32 +0000  6415 bytes for ./Payload/OllehSpeech.app/_CodeSignature/CodeResources
+2018-09-18 07:19:32 +0000  copying file ./Payload/OllehSpeech.app/OllehSpeech ... 
+2018-09-18 07:19:32 +0000  91296 bytes for ./Payload/OllehSpeech.app/OllehSpeech
 copying file ./Payload/OllehSpeech.app/AppIcon60x60@2x.png ... 
-2018-09-18 06:28:29 +0000  2936 bytes for ./Payload/OllehSpeech.app/AppIcon60x60@2x.png
-2018-09-18 06:28:29 +0000  copying file ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-MFy-S9-6bM.nib ... 
-969 bytes for ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-MFy-S9-6bM.nib
-2018-09-18 06:28:29 +0000  copying file ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
-1234 bytes for ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
+2018-09-18 07:19:32 +0000  2936 bytes for ./Payload/OllehSpeech.app/AppIcon60x60@2x.png
+2018-09-18 07:19:32 +0000  copying file ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-MFy-S9-6bM.nib ... 
+2018-09-18 07:19:32 +0000  969 bytes for ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-MFy-S9-6bM.nib
+copying file ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib ... 
+2018-09-18 07:19:32 +0000  1234 bytes for ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/UIViewController-BYZ-38-t0r.nib
 copying file ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-1wO-dL-OVo.nib ... 
-2018-09-18 06:28:29 +0000  6266 bytes for ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-1wO-dL-OVo.nib
+2018-09-18 07:19:32 +0000  6267 bytes for ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/BYZ-38-t0r-view-1wO-dL-OVo.nib
 copying file ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/MFy-S9-6bM-view-65D-gf-ZVn.nib ... 
-2018-09-18 06:28:29 +0000  7950 bytes for ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/MFy-S9-6bM-view-65D-gf-ZVn.nib
+2018-09-18 07:19:32 +0000  7960 bytes for ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/MFy-S9-6bM-view-65D-gf-ZVn.nib
 copying file ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/Info.plist ... 
-2018-09-18 06:28:29 +0000  333 bytes for ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/Info.plist
-copying file ./Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
-2018-09-18 06:28:29 +0000  1136 bytes for ./Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
+2018-09-18 07:19:32 +0000  333 bytes for ./Payload/OllehSpeech.app/Base.lproj/Main.storyboardc/Info.plist
+2018-09-18 07:19:32 +0000  copying file ./Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib ... 
+1136 bytes for ./Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib
 copying file ./Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib ... 
-2018-09-18 06:28:29 +0000  832 bytes for ./Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
+2018-09-18 07:19:32 +0000  832 bytes for ./Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib
 copying file ./Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/Info.plist ... 
-2018-09-18 06:28:29 +0000  258 bytes for ./Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
+2018-09-18 07:19:32 +0000  258 bytes for ./Payload/OllehSpeech.app/Base.lproj/LaunchScreen.storyboardc/Info.plist
 copying file ./Payload/OllehSpeech.app/Assets.car ... 
-2018-09-18 06:28:29 +0000  164904 bytes for ./Payload/OllehSpeech.app/Assets.car
-copying file ./Payload/OllehSpeech.app/AppIcon76x76@2x~ipad.png ... 
-2018-09-18 06:28:29 +0000  3646 bytes for ./Payload/OllehSpeech.app/AppIcon76x76@2x~ipad.png
-2018-09-18 06:28:29 +0000  copying file ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/_CodeSignature/CodeResources ... 
-2018-09-18 06:28:29 +0000  2202 bytes for ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/_CodeSignature/CodeResources
-copying file ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/Info.plist ... 
-2018-09-18 06:28:29 +0000  758 bytes for ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/Info.plist
-copying file ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit ... 
-2018-09-18 06:28:29 +0000  330208 bytes for ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
-2018-09-18 06:28:29 +0000  copying file ./Payload/OllehSpeech.app/embedded.mobileprovision ... 
-2018-09-18 06:28:29 +0000  7611 bytes for ./Payload/OllehSpeech.app/embedded.mobileprovision
+2018-09-18 07:19:32 +0000  164904 bytes for ./Payload/OllehSpeech.app/Assets.car
+2018-09-18 07:19:32 +0000  copying file ./Payload/OllehSpeech.app/AppIcon76x76@2x~ipad.png ... 
+2018-09-18 07:19:32 +0000  3646 bytes for ./Payload/OllehSpeech.app/AppIcon76x76@2x~ipad.png
+2018-09-18 07:19:32 +0000  copying file ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/_CodeSignature/CodeResources ... 
+2018-09-18 07:19:32 +0000  2202 bytes for ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/_CodeSignature/CodeResources
+2018-09-18 07:19:32 +0000  copying file ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/Info.plist ... 
+758 bytes for ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/Info.plist
+2018-09-18 07:19:32 +0000  copying file ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit ... 
+2018-09-18 07:19:32 +0000  330208 bytes for ./Payload/OllehSpeech.app/Frameworks/KTVoiceKit.framework/KTVoiceKit
+2018-09-18 07:19:32 +0000  copying file ./Payload/OllehSpeech.app/embedded.mobileprovision ... 
+2018-09-18 07:19:32 +0000  7671 bytes for ./Payload/OllehSpeech.app/embedded.mobileprovision
 copying file ./Payload/OllehSpeech.app/Info.plist ... 
-2018-09-18 06:28:29 +0000  3070 bytes for ./Payload/OllehSpeech.app/Info.plist
+2018-09-18 07:19:32 +0000  3070 bytes for ./Payload/OllehSpeech.app/Info.plist
 copying file ./Payload/OllehSpeech.app/PkgInfo ... 
-2018-09-18 06:28:29 +0000  8 bytes for ./Payload/OllehSpeech.app/PkgInfo
-2018-09-18 06:28:29 +0000  2018-09-18 06:28:29 +0000  /usr/bin/ditto exited with 0
+2018-09-18 07:19:32 +0000  8 bytes for ./Payload/OllehSpeech.app/PkgInfo
+2018-09-18 07:19:32 +0000  2018-09-18 07:19:32 +0000  
 
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  
-2018-09-18 06:28:29 +0000  Processing step: IDEDistributionCreateManifestStep
+2018-09-18 07:19:32 +0000  /usr/bin/ditto exited with 0
+2018-09-18 07:19:32 +0000  2018-09-18 07:19:32 +0000  
+
+2018-09-18 07:19:32 +0000  Processing step: IDEDistributionCreateManifestStep
