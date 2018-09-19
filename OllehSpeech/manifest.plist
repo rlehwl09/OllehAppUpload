@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>https://raw.githubusercontent.com/rlehwl09/OllehAppUpload/master/OllehSpeech/OllehSpeech.ipa</string>
+					<string>https://raw.githubusercontent.com/rlehwl09/OllehAppUpload/master/OllehSpeech/KTSpeech.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -29,13 +29,13 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.tns.OllehSpeech</string>
+				<string>com.kt.KTSpeech</string>
 				<key>bundle-version</key>
 				<string>1.0</string>
 				<key>kind</key>
 				<string>software</string>
 				<key>title</key>
-				<string>OllehSpeech</string>
+				<string>KTSpeech</string>
 			</dict>
 		</dict>
 	</array>
