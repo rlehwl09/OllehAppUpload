@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>OllehSpeech.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>F7CA817CE4D7DE519A6C54B528DA0974D42B9753</string>
+				<key>dateExpires</key>
+				<string>14/02/2022</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>VM8YP667H8.com.kt.KTVoiceKit</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>VM8YP667H8</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>VM8YP667H8.com.kt.KTVoiceKit</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>OllehSpeech.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>b898774c-422f-4c68-8631-67ed03618945</string>
+				<key>name</key>
+				<string>VoiceKit_Distribution_20190508</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>VM8YP667H8</string>
+				<key>name</key>
+				<string>KT</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
